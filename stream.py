@@ -20,7 +20,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Load the model and scaler
 lr = load(open('Virtual_Reality_dt_new.pickle', 'rb'))
-scaler = load(open('MinMaxScaler.pickle', 'rb'))
+scaler = load(open('MinMaxScaler_new.pickle', 'rb'))
 
 st.title("[Virtual Reality Performances]")
 
